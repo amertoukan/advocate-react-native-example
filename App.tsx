@@ -74,9 +74,9 @@ console.log(apiKey)
   return (
     <WebView
       originWhitelist={['*']}
-      source={{ html: htmlCode || '', baseUrl: 'https://google.com' }}
+      source={{ html: htmlCode || '', baseUrl: 'https://ssqt.co' }}
       style={{ flex: 1 }}
-      contentMode={Platform.OS === 'ios' ? 'mobile' : 'desktop'} // Example conditional
+      contentMode='mobile'// Example conditional
       javaScriptEnabled={true}
     />
   );
